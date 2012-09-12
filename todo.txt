@@ -1,5 +1,5 @@
 TODO
-Ability to switch between datasets? Integrate multiyear data? Components of value added?
+Ability to switch between datasets. Integrate multiyear data? Components of value added?
 Remember to push changes.
 
 DONE
