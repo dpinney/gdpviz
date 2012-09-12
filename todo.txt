@@ -1,0 +1,15 @@
+TODO
+Ability to switch between datasets?
+Integrate multiyear data?
+
+DONE
+
+Add some click instructions that are dismissable in a popover.
+Make the gradient a little nicer.
+Set the width correctly on the google heatmap.
+Change the colorscale.
+CHANGE THE MAX DEPTH ON THE GOOGLE HEATMAP
+Treemap demo.
+Icicle demo.
+Make the icicle thing the full size of the screen.
+Do a basic version of this: http://mbostock.github.com/d3/talk/20111018/treemap.html

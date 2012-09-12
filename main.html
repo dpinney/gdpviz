@@ -1,0 +1,127 @@
+﻿<html>
+<head>
+  <style type="text/css">
+    div#information {position:absolute; top:20px; left:30px; width:200px; z-index: 100; background-color: orangered; padding:10px; font-family: sans-serif;}
+    div#infoX {float:right; padding:2px; cursor:pointer;}
+  </style>
+</head>
+<body>
+  <div id='chart_div'></div>
+  <div id='information'><div id='infoX' onclick='body.removeChild(document.getElementById("information"))'>✖</div> Industries in America (2010) sized by value added and colored by number of employees. <br><br> Left click to zoom in on headings. Right click to zoom out. <br><br> The data comes from the <a href='http://www.bea.gov/industry/gdpbyind_data.htm'>US BEA.</a></div>
+  <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+  <script type='text/javascript'>
+    document.getElementById('chart_div').style.width = document.width - 20
+    document.getElementById('chart_div').style.height = document.height - 20
+    google.load('visualization', '1', {packages:['treemap']});
+    google.setOnLoadCallback(drawChart);
+    function drawChart() {
+      // Create and populate the data table.
+      var data = google.visualization.arrayToDataTable([
+        ['Industry', 'Parent', 'Value Added (%GDP)', 'Employment'],
+        ['Gross Domestic Product', null, 100, 120921],
+        ['Agriculture, forestry, fishing, and hunting', 'Gross Domestic Product', 1.1, 1096],
+        ['Farms', 'Agriculture, forestry, fishing, and hunting', 0.9, 655],
+        ['Forestry, fishing, and related activities', 'Agriculture, forestry, fishing, and hunting', 0.2, 441],
+        ['Mining', 'Gross Domestic Product', 1.6, 641],
+        ['Oil and gas extraction', 'Mining', 1, 157],
+        ['Mining, except oil and gas', 'Mining', 0.3, 202],
+        ['Support activities for mining', 'Mining', 0.3, 282],
+        ['Utilities', 'Gross Domestic Product', 1.8, 546],
+        ['Construction', 'Gross Domestic Product', 3.5, 5486],
+        ['Manufacturing', 'Gross Domestic Product', 11.7, 11235],
+        ['Durable goods', 'Manufacturing', 6.3, 6908],
+        ['Wood products', 'Durable goods', 0.2, 334],
+        ['Nonmetallic mineral products', 'Durable goods', 0.2, 357],
+        ['Primary metals', 'Durable goods', 0.3, 353],
+        ['Fabricated metal products', 'Durable goods', 0.8, 1250],
+        ['Machinery', 'Durable goods', 1, 976],
+        ['Computer and electronic products', 'Durable goods', 1.8, 1079],
+        ['Electrical equipment, appliances, and components', 'Durable goods', 0.3, 351],
+        ['Motor vehicles, bodies and trailers, and parts', 'Durable goods', 0.4, 670],
+        ['Other transportation equipment', 'Durable goods', 0.5, 644],
+        ['Furniture and related products', 'Durable goods', 0.2, 346],
+        ['Miscellaneous manufacturing', 'Durable goods', 0.6, 549],
+        ['Nondurable goods', 'Manufacturing', 5.4, 4327],
+        ['Food and beverage and tobacco products', 'Nondurable goods', 1.4, 1562],
+        ['Textile mills and textile product mills', 'Nondurable goods', 0.1, 230],
+        ['Apparel and leather and allied products', 'Nondurable goods', 0.1, 178],
+        ['Paper products', 'Nondurable goods', 0.4, 382],
+        ['Printing and related support activities', 'Nondurable goods', 0.2, 476],
+        ['Petroleum and coal products', 'Nondurable goods', 1.2, 109],
+        ['Chemical products', 'Nondurable goods', 1.6, 775],
+        ['Plastics and rubber products', 'Nondurable goods', 0.5, 615],
+        ['Wholesale trade', 'Gross Domestic Product', 5.5, 5304],
+        ['Retail trade', 'Gross Domestic Product', 6.1, 12561],
+        ['Transportation and warehousing', 'Gross Domestic Product', 2.8, 3976],
+        ['Air transportation', 'Transportation and warehousing', 0.4, 425],
+        ['Rail transportation', 'Transportation and warehousing', 0.2, 177],
+        ['Water transportation', 'Transportation and warehousing', 0.1, 60],
+        ['Truck transportation', 'Transportation and warehousing', 0.8, 1225],
+        ['Transit and ground passenger transportation', 'Transportation and warehousing', 0.2, 416],
+        ['Pipeline transportation', 'Transportation and warehousing', 0.1, 40],
+        ['Other transportation and support activities', 'Transportation and warehousing', 0.6, 1039],
+        ['Warehousing and storage', 'Transportation and warehousing', 0.3, 594],
+        ['Information', 'Gross Domestic Product', 4.3, 2521],
+        ['Publishing industries (includes software)', 'Information', 1, 753],
+        ['Motion picture and sound recording industries', 'Information', 0.4, 310],
+        ['Broadcasting and telecommunications', 'Information', 2.4, 1168],
+        ['Information and data processing services', 'Information', 0.5, 290],
+        ['Finance, insurance, real estate, rental, and leasing', 'Gross Domestic Product', 20.7, 7356],
+        ['Finance and insurance', 'Finance, insurance, real estate, rental, and leasing', 8.5, 5527],
+        ['Federal Reserve banks, credit intermediation, and related activities', 'Finance and insurance', 4, 2476],
+        ['Securities, commodity contracts, and investments', 'Finance and insurance', 1.4, 774],
+        ['Insurance carriers and related activities', 'Finance and insurance', 2.8, 2195],
+        ['Funds, trusts, and other financial vehicles', 'Finance and insurance', 0.3, 82],
+        ['Real estate and rental and leasing', 'Finance, insurance, real estate, rental, and leasing', 12.2, 1829],
+        ['Real estate ', 'Real estate and rental and leasing', 10.8, 1341],
+        ['Rental and leasing services and lessors of intangible assets', 'Real estate and rental and leasing', 1.4, 488],
+        ['Professional and business services', 'Gross Domestic Product', 12.3, 15858],
+        ['Professional, scientific, and technical services', 'Professional and business services', 7.5, 7198],
+        ['Legal services', 'Professional, scientific, and technical services', 1.5, 1078],
+        ['Computer systems design and related services', 'Professional, scientific, and technical services', 1.3, 1383],
+        ['Miscellaneous professional, scientific, and technical services', 'Professional, scientific, and technical services', 4.8, 4737],
+        ['Management of companies and enterprises', 'Professional and business services', 1.8, 1790],
+        ['Administrative and waste management services', 'Professional and business services', 2.9, 6870],
+        ['Administrative and support services', 'Administrative and waste management services', 2.6, 6520],
+        ['Waste management and remediation services', 'Administrative and waste management services', 0.3, 350],
+        ['Educational services, health care, and social assistance', 'Gross Domestic Product', 8.8, 17766],
+        ['Educational services', 'Educational services, health care, and social assistance', 1.1, 2853],
+        ['Health care and social assistance', 'Educational services, health care, and social assistance', 7.6, 14913],
+        ['Ambulatory health care services', 'Health care and social assistance', 3.8, 5387],
+        ['Hospitals and nursing and residential care facilities', 'Health care and social assistance', 3.2, 7214],
+        ['Social assistance', 'Health care and social assistance', 0.6, 2312],
+        ['Arts, entertainment, recreation, accommodation, and food services', 'Gross Domestic Product', 3.8, 10538],
+        ['Arts, entertainment, and recreation', 'Arts, entertainment, recreation, accommodation, and food services', 1, 1596],
+        ['Performing arts, spectator sports, museums, and related activities', 'Arts, entertainment, and recreation', 0.6, 446],
+        ['Amusements, gambling, and recreation industries', 'Arts, entertainment, and recreation', 0.4, 1150],
+        ['Accommodation and food services', 'Arts, entertainment, recreation, accommodation, and food services', 2.9, 8942],
+        ['Accommodation', 'Accommodation and food services', 0.8, 1561],
+        ['Food services and drinking places', 'Accommodation and food services', 2.1, 7381],
+        ['Other services, except government', 'Gross Domestic Product', 2.5, 5654],
+        ['Government', 'Gross Domestic Product', 13.6, 20382],
+        ['Federal', 'Government', 4.5, 4310],
+        ['General fed government', 'Federal', 4.1, 3690],
+        ['Government fed enterprises', 'Federal', 0.4, 620],
+        ['State and Local', 'Government', 9.1, 16072],
+        ['General state and local government', 'State and Local', 8.4, 14982],
+        ['Government state and local enterprises', 'State and Local', 0.7, 1090]
+        ]);
+
+      // Create and draw the visualization.
+      var tree = new google.visualization.TreeMap(document.getElementById('chart_div'));
+      tree.draw(data, {
+        // minColor: 'lightsteelblue',
+        // midColor: 'lightskyblue',
+        // maxColor: 'royalblue',
+        minColor: '#B2C8D8',
+        midColor: '#5586A9',
+        maxColor: '#004A7F',
+        fontSize: 10,
+        headerHeight: 15,
+        maxDepth:3,
+        fontColor: 'black',
+        showScale: true});
+        }
+      </script>
+    </body>
+    </html>
