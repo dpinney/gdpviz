@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"op",
+				"option	Tag"
+			],
+			[
 				"backg",
 				"background-color"
 			],
@@ -171,7 +175,7 @@
 			"file": "todo.txt",
 			"settings":
 			{
-				"buffer_size": 447,
+				"buffer_size": 651,
 				"line_ending": "Windows"
 			}
 		},
@@ -179,7 +183,7 @@
 			"file": "main.html",
 			"settings":
 			{
-				"buffer_size": 9087,
+				"buffer_size": 11266,
 				"line_ending": "Windows"
 			}
 		}
@@ -187,15 +191,51 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 173.0,
 		"selected_items":
 		[
 			[
-				"install ",
-				"Package Control: Install Package"
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git push",
+				"Git Push Tags"
+			],
+			[
+				"commit",
+				"Git: Commit"
 			],
 			[
 				"git",
+				"Git: Push Current Branch"
+			],
+			[
+				"git commi",
+				"Git: Commit history"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"install ",
 				"Package Control: Install Package"
 			],
 			[
@@ -225,10 +265,6 @@
 			[
 				"html",
 				"Set Syntax: HTML"
-			],
-			[
-				"tabs",
-				"View: Toggle Tabs"
 			],
 			[
 				"sideba",
@@ -424,12 +460,16 @@
 	},
 	"file_history":
 	[
+		"/C/Users/dwp0/Dropbox/gReaderStarred/greaderstars.py",
 		"/C/Users/dwp0/Dropbox/gdpViz/main.html",
+		"/C/Users/dwp0/Dropbox/gdpViz/icicle.html",
+		"/C/Users/dwp0/Dropbox/gdpViz/Source Data.xlsx",
+		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/Side Bar.sublime-menu",
+		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/Main.sublime-menu",
 		"/C/Users/dwp0/Dropbox/gdpViz/valueAddedPercGDP.csv",
 		"/C/Users/dwp0/Dropbox/gdpViz/transform.py",
 		"/C/Users/dwp0/Dropbox/gdpViz/Employment.csv",
 		"/C/Users/dwp0/Dropbox/gdpViz/d3treemap.html",
-		"/C/Users/dwp0/Dropbox/gdpViz/icicle.html",
 		"/C/Users/dwp0/Dropbox/gdpViz/todo.txt",
 		"/C/Users/dwp0/Dropbox/gdpViz/gdpViz.sublime-project",
 		"/C/Users/dwp0/Dropbox/gdpViz/Source Data.xls",
@@ -476,7 +516,6 @@
 		"/C/Users/dwp0/Dropbox/OMF/omf/log.txt",
 		"/C/Users/dwp0/Dropbox/OMF/omf/omf.sublime-workspace",
 		"/C/Users/dwp0/Dropbox/OMF/omf/run.sh",
-		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/Main.sublime-menu",
 		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/User/Side Bar.sublime-settings",
 		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
 		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
@@ -548,10 +587,7 @@
 		"/C/Users/dwp0/Dropbox/OMF/omf/templates/node.component",
 		"/C/Users/dwp0/Dropbox/OMF/omf/feeders/13 Node Reference Feeder/main.glm",
 		"/C/Users/dwp0/Dropbox/OMF/omf/refactor/doeDemo.py",
-		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/dwp0/Dropbox/OMF/omf/feeders/Simple Market System/Regulator_Reg1.csv",
-		"/C/Users/dwp0/Dropbox/OMF/omf/scratch/picklingTests.py"
+		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap"
 	],
 	"find":
 	{
@@ -573,6 +609,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"chart_div",
 			"me",
 			"\"",
 			"/and ",
@@ -699,8 +736,7 @@
 			"$",
 			"^",
 			"newObject",
-			"\\",
-			"treeIndex"
+			"\\"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -746,7 +782,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -754,15 +790,15 @@
 					"file": "todo.txt",
 					"settings":
 					{
-						"buffer_size": 447,
+						"buffer_size": 651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								66,
-								66
+								185,
+								185
 							]
 						],
 						"settings":
@@ -780,25 +816,24 @@
 					"file": "main.html",
 					"settings":
 					{
-						"buffer_size": 9087,
+						"buffer_size": 11266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2308,
-								2308
+								10736,
+								10736
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1120.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -843,7 +878,7 @@
 	},
 	"output.git":
 	{
-		"height": 94.0
+		"height": 535.0
 	},
 	"replace":
 	{

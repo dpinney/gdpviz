@@ -1,9 +1,11 @@
 TODO
-Ability to switch between datasets. Integrate multiyear data? Components of value added?
-Remember to push changes.
+Integrate multiyear data then gitpush?
 
 DONE
-
+Check whether we should rescale everything to a percentage. We shouldn't--coloring automatically does this.
+Ability to switch between datasets.
+Briefly describe the components of value added.
+Add in material/energy/service data.
 Add some click instructions that are dismissable in a popover.
 Make the gradient a little nicer.
 Set the width correctly on the google heatmap.
