@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"size",
+				"sizyByIndex"
+			],
+			[
 				"op",
 				"option	Tag"
 			],
@@ -175,7 +179,7 @@
 			"file": "todo.txt",
 			"settings":
 			{
-				"buffer_size": 651,
+				"buffer_size": 653,
 				"line_ending": "Windows"
 			}
 		},
@@ -183,7 +187,7 @@
 			"file": "main.html",
 			"settings":
 			{
-				"buffer_size": 11266,
+				"buffer_size": 11736,
 				"line_ending": "Windows"
 			}
 		}
@@ -191,20 +195,24 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 173.0,
+		"height": 104.0,
 		"selected_items":
 		[
+			[
+				"push",
+				"Git: Push"
+			],
 			[
 				"git commit",
 				"Git: Commit"
 			],
 			[
-				"git add",
+				"add",
 				"Git: Add..."
 			],
 			[
-				"push",
-				"Git: Push Current Branch"
+				"git add",
+				"Git: Add..."
 			],
 			[
 				"git push",
@@ -782,7 +790,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -790,15 +798,15 @@
 					"file": "todo.txt",
 					"settings":
 					{
-						"buffer_size": 651,
+						"buffer_size": 653,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								185,
-								185
+								39,
+								39
 							]
 						],
 						"settings":
@@ -816,15 +824,15 @@
 					"file": "main.html",
 					"settings":
 					{
-						"buffer_size": 11266,
+						"buffer_size": 11736,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10736,
-								10736
+								456,
+								456
 							]
 						],
 						"settings":
@@ -833,7 +841,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1120.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
