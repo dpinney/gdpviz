@@ -21,7 +21,7 @@
 		function drawChart() {
 			// Create and populate the data table.
 			data = google.visualization.arrayToDataTable([
-['Job','Parent','Employment 2010','Projected Employment 2020','Employment change 2010-20','Percent Employment change 2010-20','Percent self employed, 2010 ','Job openings due to growth and replacement needs, 2010-20','Median annual wage, 2010','Typical education needed for entry  ','Work experience in a related occupation','Typical on-the-job training needed to attain competency in the occupation'],
+['Job','Parent','Employment 2010','Projected Employment 2020','Employment change 2010-20','Percent Employment change 2010-20','Percent self employed','Job openings due to growth and replacement needs','Median annual wage','Typical education needed for entry','Work experience in a related occupation','Typical on-the-job training needed to attain competency in the occupation'],
 ['Total, All Occupations',null,143068.2,163537.1,20468.9,14.3,7.8,54787.4,33840,'— ','— ','— '],
 ['Management, Business, and Financial Occupations','Total, All Occupations',15565.3,17353.6,1788.3,11.5,17.5,5123,73070,'— ','— ','— '],
 ['Management Occupations','Management, Business, and Financial Occupations',8776.1,9391.9,615.8,7,26,2567.7,91440,'— ','— ','— '],
@@ -1045,13 +1045,11 @@
 				}
 			}
 			// Set the proper selection for our first go-round.
-			document.getElementById('colorBy').selectedIndex = 1
+			document.getElementById('colorBy').selectedIndex = 6
 
 			// Try a subset of the data.
 			view = new google.visualization.DataView(data)
-			view.setColumns([0,1,2,3])
-			// Or size by number of employees:
-			// view.setColumns([0,1,2,3])
+			view.setColumns([0,1,2,8])
 
 			// Create and draw the visualization.
 			tree = new google.visualization.TreeMap(document.getElementById('chartDiv'));
