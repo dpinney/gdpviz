@@ -1054,17 +1054,15 @@
 			// Create and draw the visualization.
 			tree = new google.visualization.TreeMap(document.getElementById('chartDiv'));
 			options = {
-				minColor: '#f00',
-	    	    midColor: '#ddd',
-		        maxColor: '#0d0',
-				// minColor: '#B2C8D8',
-				// midColor: '#5586A9',
-				// maxColor: '#004A7F',
+				minColor: 'red',
+	    	    midColor: 'orange',
+		        maxColor: 'green',
 				fontSize: 10,
 				headerHeight: 15,
 				maxDepth: 3,
 				fontColor: 'black',
-				showScale: true
+				showScale: true,
+				useWeightedAverageForAggregation: true
 			}
 			tree.draw(view, options);
 		}
