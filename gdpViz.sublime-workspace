@@ -175,29 +175,45 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "todo.txt",
-			"settings":
-			{
-				"buffer_size": 653,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "main.html",
-			"settings":
-			{
-				"buffer_size": 11736,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 104.0,
+		"height": 260.0,
 		"selected_items":
 		[
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"#!",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"browse pack",
+				"Preferences: Browse Packages"
+			],
 			[
 				"push",
 				"Git: Push"
@@ -207,16 +223,12 @@
 				"Git: Commit"
 			],
 			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
 				"add",
 				"Git: Add..."
-			],
-			[
-				"git add",
-				"Git: Add..."
-			],
-			[
-				"git push",
-				"Git Push Tags"
 			],
 			[
 				"commit",
@@ -287,10 +299,6 @@
 				"Set Syntax: Python"
 			],
 			[
-				"browse pack",
-				"Preferences: Browse Packages"
-			],
-			[
 				"set synt pyth",
 				"Set Syntax: Python"
 			],
@@ -307,14 +315,6 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"packages",
-				"Preferences: Browse Packages"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"package",
 				"Package Control: Install Package"
 			],
@@ -328,10 +328,6 @@
 			],
 			[
 				"rep",
-				"SublimeREPL: Python"
-			],
-			[
-				"pyth",
 				"SublimeREPL: Python"
 			],
 			[
@@ -381,10 +377,6 @@
 			[
 				"browser",
 				"File: Open In Browser - Testing Server"
-			],
-			[
-				"package insta",
-				"Package Control: Install Package"
 			],
 			[
 				"rename",
@@ -451,11 +443,11 @@
 				"View: Toggle Open Files in Side Bar"
 			]
 		],
-		"width": 400.0
+		"width": 522.0
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 477.0
 	},
 	"distraction_free":
 	{
@@ -468,8 +460,14 @@
 	},
 	"file_history":
 	[
-		"/C/Users/dwp0/Dropbox/gReaderStarred/greaderstars.py",
+		"/C/Users/dwp0/Desktop/test.pu.py",
+		"/C/Users/dwp0/Dropbox/gdpViz/todo.txt",
 		"/C/Users/dwp0/Dropbox/gdpViz/main.html",
+		"/C/Users/dwp0/Dropbox/gdpViz/.git/config",
+		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/Git/git.py",
+		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/Git/Default.sublime-commands",
+		"/C/Users/dwp0/Dropbox/gReaderStarred/greaderstars.py",
 		"/C/Users/dwp0/Dropbox/gdpViz/icicle.html",
 		"/C/Users/dwp0/Dropbox/gdpViz/Source Data.xlsx",
 		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/Side Bar.sublime-menu",
@@ -478,7 +476,6 @@
 		"/C/Users/dwp0/Dropbox/gdpViz/transform.py",
 		"/C/Users/dwp0/Dropbox/gdpViz/Employment.csv",
 		"/C/Users/dwp0/Dropbox/gdpViz/d3treemap.html",
-		"/C/Users/dwp0/Dropbox/gdpViz/todo.txt",
 		"/C/Users/dwp0/Dropbox/gdpViz/gdpViz.sublime-project",
 		"/C/Users/dwp0/Dropbox/gdpViz/Source Data.xls",
 		"/C/Users/dwp0/Dropbox/OMF/omf/analysis.py",
@@ -590,12 +587,7 @@
 		"/C/Users/dwp0/Dropbox/OMF/omf/components/triplex_meter.comp",
 		"/C/Users/dwp0/Dropbox/OMF/omf/components/load.comp",
 		"/C/Users/dwp0/Dropbox/OMF/omf/components/node.comp",
-		"/C/Users/dwp0/Dropbox/OMF/omf/components/node.component",
-		"/C/Users/dwp0/Dropbox/OMF/omf/components/load.component",
-		"/C/Users/dwp0/Dropbox/OMF/omf/templates/node.component",
-		"/C/Users/dwp0/Dropbox/OMF/omf/feeders/13 Node Reference Feeder/main.glm",
-		"/C/Users/dwp0/Dropbox/OMF/omf/refactor/doeDemo.py",
-		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap"
+		"/C/Users/dwp0/Dropbox/OMF/omf/components/node.component"
 	],
 	"find":
 	{
@@ -617,6 +609,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"%",
+			" ",
 			"chart_div",
 			"me",
 			"\"",
@@ -742,9 +736,7 @@
 			"house28C_tm_C_28_675",
 			"tree",
 			"$",
-			"^",
-			"newObject",
-			"\\"
+			"^"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -790,62 +782,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "todo.txt",
-					"settings":
-					{
-						"buffer_size": 653,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								39,
-								39
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "main.html",
-					"settings":
-					{
-						"buffer_size": 11736,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								456,
-								456
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
