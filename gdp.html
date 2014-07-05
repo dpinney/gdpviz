@@ -2,8 +2,8 @@
 <head>
 	<style type="text/css">
 		div#information {position:absolute; bottom:5px; left:5px; width:200px; z-index: 100; background-color: orangered; padding:10px; font-family: sans-serif;}
-		div#controls {position:absolute; top:0px; left:5px; height:20px; z-index: 100; padding:10px; font-family: sans-serif;}
-		div#chartDiv {position:absolute; top:20px; left:5px;}
+		div#controls {position:absolute; top:0px; left:5px; height:5%; z-index: 100; padding:10px; font-family: sans-serif;}
+		div#chartDiv {position:absolute; top:20px; left:5px; width:98%; height:95%;}
 		div#infoX {float:right; padding:2px; cursor:pointer;}
 		select {min-width: 100px;}
 	</style>
@@ -14,8 +14,6 @@
 	<div id='information'><div id='infoX' onclick='body.removeChild(document.getElementById("information"))'>✖</div> Industries in America (2010) sized by value added and colored by number of employees. Value added is roughly the sum of wages, taxes and profit for all firms in a given industry. <br><br> Left click to zoom in on headings. Right click to zoom out. <br><br> The data comes from the <a href='http://www.bea.gov/industry/gdpbyind_data.htm'>US BEA.</a></div>
 	<script type='text/javascript' src='https://www.google.com/jsapi'></script>
 	<script type='text/javascript'>
-		document.getElementById('chartDiv').style.width = document.width - 20
-		document.getElementById('chartDiv').style.height = document.height - 20
 		google.load('visualization', '1', {packages:['treemap']});
 		google.setOnLoadCallback(drawChart);
 		function drawChart() {

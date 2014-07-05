@@ -175,22 +175,33 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "Ohm's law\nV=IR => I=V/R\n\nLosses equation\nL=I^2R\nAnd Ohm's law gives\nL=(V/R)^2/R\nL=V^2/R^3\n\n\n",
-			"settings":
-			{
-				"buffer_size": 92,
-				"line_ending": "Windows",
-				"name": "Ohm's law"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 35.0,
+		"height": 110.0,
 		"selected_items":
 		[
+			[
+				"close ",
+				"Project: Close"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git stats",
+				"Git: Status"
+			],
 			[
 				"install pack",
 				"Package Control: Install Package"
@@ -252,24 +263,12 @@
 				"Package Control: Install Package"
 			],
 			[
-				"git push",
-				"Git: Push"
-			],
-			[
 				"browse pack",
 				"Preferences: Browse Packages"
 			],
 			[
 				"push",
 				"Git: Push"
-			],
-			[
-				"git commit",
-				"Git: Commit"
-			],
-			[
-				"git add",
-				"Git: Add Current File"
 			],
 			[
 				"add",
@@ -468,7 +467,7 @@
 				"View: Toggle Open Files in Side Bar"
 			]
 		],
-		"width": 522.0
+		"width": 386.0
 	},
 	"console":
 	{
@@ -485,8 +484,9 @@
 	},
 	"file_history":
 	[
-		"/C/Users/dwp0/Dropbox/gdpViz/test.py",
 		"/C/Users/dwp0/Dropbox/gdpViz/employment.html",
+		"/C/Users/dwp0/Dropbox/gdpViz/README.md",
+		"/C/Users/dwp0/Dropbox/gdpViz/test.py",
 		"/C/Users/dwp0/Dropbox/gdpViz/test.html",
 		"/C/Users/dwp0/Desktop/Employment Data.csv",
 		"/C/Users/dwp0/Dropbox/gdpViz/~$Source Data.xlsx",
@@ -611,8 +611,7 @@
 		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/View In Browser/README.md",
 		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/View In Browser/ViewInBrowserCommand.py",
 		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/HTML/HTML.tmLanguage",
-		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/GridlabD/GridlabD.tmlanguage",
-		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/GridlabD/GridlabD.sublime-build"
+		"/C/Users/dwp0/AppData/Roaming/Sublime Text 2/Packages/GridlabD/GridlabD.tmlanguage"
 	],
 	"find":
 	{
@@ -812,135 +811,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"settings":
-					{
-						"buffer_size": 92,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								92,
-								92
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Ohm's law",
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"sublime_auto_complete": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

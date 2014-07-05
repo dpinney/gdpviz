@@ -1,5 +1,6 @@
 TODO
-Integrate multiyear data then git push it?
+Integrate multiyear GDP data to see finance/tech growth?
+Remove textual metric columns in the employment data, or make them integers.
 
 DONE
 Check whether we should rescale everything to a percentage. We shouldn't--coloring automatically does this.
