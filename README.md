@@ -3,4 +3,4 @@ A treemap visualization of [US GDP by industry](http://htmlpreview.github.com/?h
 ).
 
 Screenshot:
-![Preview](https://raw.githubusercontent.com/dpinney/gdpviz/blob/master/1screenshot.png)
+![Preview](https://raw.githubusercontent.com/dpinney/gdpviz/master/1screenshot.png)
