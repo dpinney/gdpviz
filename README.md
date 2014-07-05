@@ -3,4 +3,4 @@ Check out GDP by industry [here](http://htmlpreview.github.com/?https://github.c
 ).
 
 Screenshot:
-![Preview](https://github.com/dpinney/gdpviz/blob/master/1screenshot.png)
+![Preview](https://raw.githubusercontent.com/dpinney/gdpviz/blob/master/1screenshot.png)
