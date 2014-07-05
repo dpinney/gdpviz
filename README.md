@@ -1,5 +1,5 @@
-Check out GDP by industry [here](http://htmlpreview.github.com/?https://github.com/dpinney/gdpviz/blob/master/gdp.html
-) or employment by role [here](http://htmlpreview.github.com/?https://github.com/dpinney/gdpviz/blob/master/employment.html
+A treemap visualization of [US GDP by industry](http://htmlpreview.github.com/?https://github.com/dpinney/gdpviz/blob/master/gdp.html
+) and [US employment by role](http://htmlpreview.github.com/?https://github.com/dpinney/gdpviz/blob/master/employment.html
 ).
 
 Screenshot:
